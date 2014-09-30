@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x131230" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x131230" />
+  <item nodeId="node-0x131230">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Game 1
+An Interactive Fiction by Brent Uramoto
+Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Main Hall
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="7">NO</temporary>
+    <children>
+      <child nodeId="node-0x7ac3930" />
+    </children>
+  </item>
+  <item nodeId="node-0x7ac3930">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front Desk
+You can see Front door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x7ba34b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7ba34b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Front door)
+
+Winning Area
+You can see Front door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xca1c4e0" />
+      <child nodeId="node-0x7a9c940" />
+    </children>
+  </item>
+  <item nodeId="node-0x7a9c940">
+    <command xml:space="preserve">open front door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0xca1c4e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Winning Area
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+</Skein>
