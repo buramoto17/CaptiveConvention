@@ -1,54 +1,276 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x37f8b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1a9f50" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x37f8b0" />
-  <item nodeId="node-0x37f8b0">
+  <activeNode nodeId="node-0x6f5ef90" />
+  <item nodeId="node-0x1a9f50">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Game 1
+Captive Convention
 An Interactive Fiction by Brent Uramoto
-Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141002 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Main Hall
 This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
 
-You can see Small Box (closed) here.
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">NO</temporary>
+    <children>
+      <child nodeId="node-0x1a8d20" />
+      <child nodeId="node-0x1a8cb0" />
+      <child nodeId="node-0x1a6250" />
+      <child nodeId="node-0x1a9fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a9fa0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Announcment booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk.
+
+You can see Wood drawer here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="12">NO</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x37f900" />
-      <child nodeId="node-0xac25aa0" />
+      <child nodeId="node-0x4a8080" />
+      <child nodeId="node-0x4992f0" />
+      <child nodeId="node-0x1a9ff0" />
     </children>
   </item>
-  <item nodeId="node-0xac25aa0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
+  <item nodeId="node-0x1a9ff0">
+    <command xml:space="preserve">sit in comfy chair</command>
+    <result xml:space="preserve">That&apos;s not something you can sit down on.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1">YES</temporary>
+    <temporary score="12">YES</temporary>
   </item>
-  <item nodeId="node-0x37f900">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Front Desk
-You can see Front door here.
+  <item nodeId="node-0x4992f0">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Wood drawer, revealing Radio.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="12">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x37f950" />
+      <child nodeId="node-0x3b9430" />
     </children>
   </item>
-  <item nodeId="node-0x37f950">
+  <item nodeId="node-0x3b9430">
+    <command xml:space="preserve">take radio</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ff55d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ff55d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb4870" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb4870">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front Desk
+This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
+
+You can see Front door and Small Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x2084d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2084d0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open Small Box, revealing Battery1.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f5ef90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f5ef90">
+    <command xml:space="preserve">take battery</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+  </item>
+  <item nodeId="node-0x4a8080">
+    <command xml:space="preserve">sit on comfy chaor</command>
+    <result xml:space="preserve">I only understood you as far as wanting to sit on Comfy chair.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x2404d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2404d0">
+    <command xml:space="preserve">sit on comfy chair</command>
+    <result xml:space="preserve">I shouldn&apos;t sit down now, I gotta get out of here!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x1a6250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front Desk
+This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
+
+You can see Front door and Small Box (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a8860" />
+      <child nodeId="node-0x1a62a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a62a0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open Small Box, revealing Battery.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a6310" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a6310">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">This is a small brown box on the desk. I don&apos;t know why it&apos;s here.
+
+In Small Box is Battery.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a6380" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a6380">
+    <command xml:space="preserve">x battery</command>
+    <result xml:space="preserve">This is a AA battery. That looks like it can go into a radio.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a6470" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a6470">
+    <command xml:space="preserve">take battery</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a64c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a64c0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Desk
+This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
+
+You can see Front door and Small Box (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a6510" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a6510">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Front door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a6580" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a6580">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a65f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a65f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Announcment booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk.
+
+You can see Wood drawer (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x1a8860">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Front door)
 It seems to be locked.
@@ -58,11 +280,11 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x38a5d0" />
-      <child nodeId="node-0x37f9a0" />
+      <child nodeId="node-0x1a88b0" />
+      <child nodeId="node-0x1a6410" />
     </children>
   </item>
-  <item nodeId="node-0x37f9a0">
+  <item nodeId="node-0x1a6410">
     <command xml:space="preserve">open front door</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -71,7 +293,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x38a5d0">
+  <item nodeId="node-0x1a88b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Front door)
 It seems to be locked.
@@ -81,10 +303,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x203250" />
+      <child nodeId="node-0x1a8900" />
     </children>
   </item>
-  <item nodeId="node-0x203250">
+  <item nodeId="node-0x1a8900">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Desk
 You can see Front door here.
@@ -94,10 +316,10 @@ You can see Front door here.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x9e3a4a0" />
+      <child nodeId="node-0x1a8970" />
     </children>
   </item>
-  <item nodeId="node-0x9e3a4a0">
+  <item nodeId="node-0x1a8970">
     <command xml:space="preserve">x front door</command>
     <result xml:space="preserve">You see nothing special about Front door.
 
@@ -106,10 +328,10 @@ You can see Front door here.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x9e3fa50" />
+      <child nodeId="node-0x1a89e0" />
     </children>
   </item>
-  <item nodeId="node-0x9e3fa50">
+  <item nodeId="node-0x1a89e0">
     <command xml:space="preserve">open</command>
     <result xml:space="preserve">(Front door)
 It seems to be locked.
@@ -119,20 +341,20 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x2116c0" />
+      <child nodeId="node-0x1a8a50" />
     </children>
   </item>
-  <item nodeId="node-0x2116c0">
+  <item nodeId="node-0x1a8a50">
     <command xml:space="preserve">push red button</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x9e347e0" />
+      <child nodeId="node-0x1a8ac0" />
     </children>
   </item>
-  <item nodeId="node-0x9e347e0">
+  <item nodeId="node-0x1a8ac0">
     <command xml:space="preserve">sdf</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -141,20 +363,20 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x2e58e0" />
+      <child nodeId="node-0x1a6660" />
     </children>
   </item>
-  <item nodeId="node-0x2e58e0">
+  <item nodeId="node-0x1a6660">
     <command xml:space="preserve">push red button</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x9e47960" />
+      <child nodeId="node-0x1a66b0" />
     </children>
   </item>
-  <item nodeId="node-0x9e47960">
+  <item nodeId="node-0x1a66b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Winning Area
@@ -164,5 +386,23 @@ You can see Front door here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x1a8cb0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open Small Box, revealing Battery.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x1a8d20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
   </item>
 </Skein>
