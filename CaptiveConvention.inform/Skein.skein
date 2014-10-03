@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1a9f50" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x2464a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x6f5ef90" />
-  <item nodeId="node-0x1a9f50">
+  <activeNode nodeId="node-0xcf8d9e0" />
+  <item nodeId="node-0x2464a0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 Captive Convention
 An Interactive Fiction by Brent Uramoto
-Release 1 / Serial number 141002 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141003 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Main Hall
 This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
@@ -17,66 +17,58 @@ This is the Main Hall of the Convention Center. It has a white marble floor, and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">NO</temporary>
+    <temporary score="408">NO</temporary>
     <children>
-      <child nodeId="node-0x1a8d20" />
-      <child nodeId="node-0x1a8cb0" />
-      <child nodeId="node-0x1a6250" />
-      <child nodeId="node-0x1a9fa0" />
+      <child nodeId="node-0x274260" />
+      <child nodeId="node-0x2741f0" />
+      <child nodeId="node-0x2738b0" />
+      <child nodeId="node-0x2464f0" />
     </children>
   </item>
-  <item nodeId="node-0x1a9fa0">
+  <item nodeId="node-0x2464f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
-Announcment booth
-This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk.
+Announcement booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk. The office is to the east, and the Main hall is to the north
 
 You can see Wood drawer here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="408">YES</temporary>
     <children>
-      <child nodeId="node-0x4a8080" />
-      <child nodeId="node-0x4992f0" />
-      <child nodeId="node-0x1a9ff0" />
+      <child nodeId="node-0x2737f0" />
+      <child nodeId="node-0x246430" />
+      <child nodeId="node-0xc883410" />
+      <child nodeId="node-0x273590" />
     </children>
   </item>
-  <item nodeId="node-0x1a9ff0">
-    <command xml:space="preserve">sit in comfy chair</command>
-    <result xml:space="preserve">That&apos;s not something you can sit down on.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="12">YES</temporary>
-  </item>
-  <item nodeId="node-0x4992f0">
+  <item nodeId="node-0x273590">
     <command xml:space="preserve">open drawer</command>
     <result xml:space="preserve">You open Wood drawer, revealing Radio.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="27">YES</temporary>
     <children>
-      <child nodeId="node-0x3b9430" />
+      <child nodeId="node-0x2735e0" />
     </children>
   </item>
-  <item nodeId="node-0x3b9430">
+  <item nodeId="node-0x2735e0">
     <command xml:space="preserve">take radio</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="27">YES</temporary>
     <children>
-      <child nodeId="node-0x6ff55d0" />
+      <child nodeId="node-0x273630" />
     </children>
   </item>
-  <item nodeId="node-0x6ff55d0">
+  <item nodeId="node-0x273630">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Main Hall
@@ -85,12 +77,12 @@ This is the Main Hall of the Convention Center. It has a white marble floor, and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="27">YES</temporary>
     <children>
-      <child nodeId="node-0x6fb4870" />
+      <child nodeId="node-0x273680" />
     </children>
   </item>
-  <item nodeId="node-0x6fb4870">
+  <item nodeId="node-0x273680">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Front Desk
@@ -101,33 +93,967 @@ You can see Front door and Small Box here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="27">YES</temporary>
     <children>
-      <child nodeId="node-0x2084d0" />
+      <child nodeId="node-0x273750" />
     </children>
   </item>
-  <item nodeId="node-0x2084d0">
+  <item nodeId="node-0x273750">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">You open Small Box, revealing Battery1.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="27">YES</temporary>
     <children>
-      <child nodeId="node-0x6f5ef90" />
+      <child nodeId="node-0x2737a0" />
     </children>
   </item>
-  <item nodeId="node-0x6f5ef90">
+  <item nodeId="node-0x2737a0">
     <command xml:space="preserve">take battery</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="95">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x72ab740" />
+    </children>
   </item>
-  <item nodeId="node-0x4a8080">
+  <item nodeId="node-0x72ab740">
+    <command xml:space="preserve">take battery1</command>
+    <result xml:space="preserve">Which do you mean, Battery1 or If Battery1?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x89b8bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x89b8bf0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x89a0a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x89a0a30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x89aee50" />
+    </children>
+  </item>
+  <item nodeId="node-0x89aee50">
+    <command xml:space="preserve">take battery2</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x72eabb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x72eabb0">
+    <command xml:space="preserve">put battery1 in radio</command>
+    <result xml:space="preserve">Which do you mean, Battery1 or If Battery1?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x72bcf50" />
+    </children>
+  </item>
+  <item nodeId="node-0x72bcf50">
+    <command xml:space="preserve">put battery2 in radio</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+  </item>
+  <item nodeId="node-0xc883410">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This looks like the office of the owner of the Convention center.  Nothing special here.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf63750" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf63750">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x72ab830" />
+    </children>
+  </item>
+  <item nodeId="node-0x72ab830">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc280a40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc280a40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Office
+This looks like the office of the owner of the Convention center.  Nothing special here.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x2046f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2046f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Ballroom
+This is where there are events are held. Everything from birthday parties to weddings are held here. The office is to the south. The main hall is to the west.
+
+You can see Battery2 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf77070" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf77070">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf62cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf62cb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This looks like the office of the owner of the Convention center.  Nothing special here.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc89dce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc89dce0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Announcement booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk. The office is to the east, and the Main hall is to the north
+
+You can see Wood drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x4d6d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x4d6d80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Announcement booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk. The office is to the east, and the Main hall is to the north
+
+You can see Wood drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8a8370" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8a8370">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This looks like the office of the owner of the Convention center.  Nothing special here.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf38e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf38e40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Ballroom
+This is where there are events are held. Everything from birthday parties to weddings are held here. The office is to the south. The main hall is to the west.
+
+You can see Battery2 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfb18a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfb18a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x12609340" />
+    </children>
+  </item>
+  <item nodeId="node-0x12609340">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front Desk
+This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
+
+You can see Front door and Small Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x72e9890" />
+    </children>
+  </item>
+  <item nodeId="node-0x72e9890">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfce7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfce7d0">
+    <command xml:space="preserve">x plaque</command>
+    <result xml:space="preserve">The plaque reads: In case of emergency, call 232-3345
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf871a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf871a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front Desk
+This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
+
+You can see Front door and Small Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf9c4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf9c4c0">
+    <command xml:space="preserve">open bo</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8ec2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8ec2f0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open Small Box, revealing Battery1.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8e15b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8e15b0">
+    <command xml:space="preserve">take battery1</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf25ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf25ff0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8accf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8accf0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Announcement booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk. The office is to the east, and the Main hall is to the north
+
+You can see Wood drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x12611480" />
+    </children>
+  </item>
+  <item nodeId="node-0x12611480">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Wood drawer, revealing Radio.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfbba70" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfbba70">
+    <command xml:space="preserve">take radio</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x126115e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x126115e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This looks like the office of the owner of the Convention center.  Nothing special here.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8b3d40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8b3d40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Office
+This looks like the office of the owner of the Convention center.  Nothing special here.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x89a4170" />
+    </children>
+  </item>
+  <item nodeId="node-0x89a4170">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Ballroom
+This is where there are events are held. Everything from birthday parties to weddings are held here. The office is to the south. The main hall is to the west.
+
+You can see Battery2 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf67640" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf67640">
+    <command xml:space="preserve">take battery2</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf700b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf700b0">
+    <command xml:space="preserve">x radio</command>
+    <result xml:space="preserve">This is a radio that can make short calls. I might be able to contact someone who can help me get out of here.There are no batteries in here. Maybe I can find some laying around.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc87bfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc87bfe0">
+    <command xml:space="preserve">put battery1 in radio</command>
+    <result xml:space="preserve">You put Battery1 into Radio.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfd2a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfd2a70">
+    <command xml:space="preserve">x radio</command>
+    <result xml:space="preserve">This is a radio that can make short calls. I might be able to contact someone who can help me get out of here. There is still one battery slot empty.
+
+In Radio is Battery1.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfe74a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfe74a0">
+    <command xml:space="preserve">put battery2 in radio</command>
+    <result xml:space="preserve">You put Battery2 into Radio.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfee410" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfee410">
+    <command xml:space="preserve">x radio</command>
+    <result xml:space="preserve">This is a radio that can make short calls. I might be able to contact someone who can help me get out of here. There is still one battery slot empty. The radio is now operational. Who should I call for help?
+
+In Radio are Battery2 and Battery1.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf95470" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf95470">
+    <command xml:space="preserve">232-3345</command>
+    <result xml:space="preserve">There is a crackle and a grunt on the other end of the line. &quot;Hello? This is Mr. Morton. Who is this?&quot; (you explain that you are trapped in the convention center) &quot;Oh! Okay. There is a key to the front door in my office. You should look in the drawer on the left side of my desk. Sorry about you getting locked in. It was the security guy&apos;s first day on the job.&quot; You thank him and hang up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x1261e1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1261e1c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc89e7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc89e7e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Ballroom
+This is where there are events are held. Everything from birthday parties to weddings are held here. The office is to the south. The main hall is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8eb8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8eb8b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This looks like the office of the owner of the Convention center.   Mr. Morton said that the key is hidden in his desk.
+
+You can see Secret drawer (in which is Secret key) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf60d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf60d50">
+    <command xml:space="preserve">take secret key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfb3e20" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfb3e20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Ballroom
+This is where there are events are held. Everything from birthday parties to weddings are held here. The office is to the south. The main hall is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a17b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a17b70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a1a330" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a1a330">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf3d660" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf3d660">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front Desk
+This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
+
+You can see Front door and Small Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfe5b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfe5b10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Front door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a23650" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a23650">
+    <command xml:space="preserve">unlcok front door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2d4ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2d4ae0">
+    <command xml:space="preserve">unlock front door</command>
+    <result xml:space="preserve">What do you want to unlock Front door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xbc1f6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbc1f6b0">
+    <command xml:space="preserve">unlock front door with secret key</command>
+    <result xml:space="preserve">You unlock Front door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfbc8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfbc8c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Secret key
+  Radio
+    Battery2
+    Battery1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc806b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc806b30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x13711b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x13711b30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Ballroom
+This is where there are events are held. Everything from birthday parties to weddings are held here. The office is to the south. The main hall is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfedd80" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfedd80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This looks like the office of the owner of the Convention center.   Mr. Morton said that the key is hidden in his desk.
+
+You can see Secret drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc22d3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc22d3a0">
+    <command xml:space="preserve">take secret key</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xc87f4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc87f4d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Secret key
+  Radio
+    Battery2
+    Battery1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a0dd70" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a0dd70">
+    <command xml:space="preserve">open secret drawer</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a2ab40" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a2ab40">
+    <command xml:space="preserve">take secret key</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfcd210" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfcd210">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Secret key
+  Radio
+    Battery2
+    Battery1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf2ff80" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf2ff80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Office
+This looks like the office of the owner of the Convention center.   Mr. Morton said that the key is hidden in his desk.
+
+You can see Secret drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcff2bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcff2bd0">
+    <command xml:space="preserve">take secret key</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a48760" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a48760">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Secret key
+  Radio
+    Battery2
+    Battery1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xbc2c760" />
+    </children>
+  </item>
+  <item nodeId="node-0xbc2c760">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Ballroom
+This is where there are events are held. Everything from birthday parties to weddings are held here. The office is to the south. The main hall is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x1260fe60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1260fe60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0x7296f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x7296f70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfc0940" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfc0940">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front Desk
+This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
+
+You can see Front door and Small Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="408">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf8d9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf8d9e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Front door)
+
+Winning Area
+I&apos;m free!
+
+You can see Front door here.
+
+
+
+    *** You got out of the convention center! Congratulations! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="407">YES</temporary>
+  </item>
+  <item nodeId="node-0x246430">
+    <command xml:space="preserve">sit in comfy chair</command>
+    <result xml:space="preserve">That&apos;s not something you can sit down on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x2737f0">
     <command xml:space="preserve">sit on comfy chaor</command>
     <result xml:space="preserve">I only understood you as far as wanting to sit on Comfy chair.
 
@@ -136,10 +1062,10 @@ You can see Front door and Small Box here.
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x2404d0" />
+      <child nodeId="node-0x273840" />
     </children>
   </item>
-  <item nodeId="node-0x2404d0">
+  <item nodeId="node-0x273840">
     <command xml:space="preserve">sit on comfy chair</command>
     <result xml:space="preserve">I shouldn&apos;t sit down now, I gotta get out of here!
 
@@ -148,36 +1074,190 @@ You can see Front door and Small Box here.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x1a6250">
+  <item nodeId="node-0x2738b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Front Desk
 This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
 
-You can see Front door and Small Box (closed) here.
+You can see Front door and Small Box here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
     <children>
-      <child nodeId="node-0x1a8860" />
-      <child nodeId="node-0x1a62a0" />
+      <child nodeId="node-0x273920" />
+      <child nodeId="node-0x2739e0" />
     </children>
   </item>
-  <item nodeId="node-0x1a62a0">
+  <item nodeId="node-0x2739e0">
     <command xml:space="preserve">open box</command>
-    <result xml:space="preserve">You open Small Box, revealing Battery.
+    <result xml:space="preserve">You open Small Box, revealing Battery1.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x2736f0" />
+      <child nodeId="node-0xc27eb80" />
+    </children>
+  </item>
+  <item nodeId="node-0xc27eb80">
+    <command xml:space="preserve">take Battery1</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2aad00" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2aad00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+This is the Main Hall of the Convention Center. It has a white marble floor, and white flourecent lights illuminate the hall. There is a plaque on the right wall.  A lot of the rooms connect here. There is a supply closet to the northeast. The Ballroom is to the east. The Announcment booth is to the south. The entrace is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x72bf5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x72bf5f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Announcment booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk. The office is to the east, and the Main hall is to the north
+
+You can see Wood drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x72b5400" />
+    </children>
+  </item>
+  <item nodeId="node-0x72b5400">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Wood drawer, revealing Radio.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xc880250" />
+    </children>
+  </item>
+  <item nodeId="node-0xc880250">
+    <command xml:space="preserve">take radio</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf29b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf29b40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x727c9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x727c9c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8cb020" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8cb020">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Announcment booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk. The office is to the east, and the Main hall is to the north
+
+You can see Wood drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xc8ee1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc8ee1f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x727ca50" />
+    </children>
+  </item>
+  <item nodeId="node-0x727ca50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="11">YES</temporary>
+    <temporary score="60">YES</temporary>
     <children>
-      <child nodeId="node-0x1a6310" />
+      <child nodeId="node-0xcf93b50" />
     </children>
   </item>
-  <item nodeId="node-0x1a6310">
+  <item nodeId="node-0xcf93b50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Announcment booth
+This is where people make announcments during events. There are nice comfy chairs here, and microphone on top of a desk. The microphone used for making announcements. There is also a container underneath the desk. The office is to the east, and the Main hall is to the north
+
+You can see Wood drawer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x89b6de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x89b6de0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+  </item>
+  <item nodeId="node-0x2736f0">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">This is a small brown box on the desk. I don&apos;t know why it&apos;s here.
 
@@ -188,10 +1268,10 @@ In Small Box is Battery.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1a6380" />
+      <child nodeId="node-0x273a50" />
     </children>
   </item>
-  <item nodeId="node-0x1a6380">
+  <item nodeId="node-0x273a50">
     <command xml:space="preserve">x battery</command>
     <result xml:space="preserve">This is a AA battery. That looks like it can go into a radio.
 
@@ -200,10 +1280,10 @@ In Small Box is Battery.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1a6470" />
+      <child nodeId="node-0x273ac0" />
     </children>
   </item>
-  <item nodeId="node-0x1a6470">
+  <item nodeId="node-0x273ac0">
     <command xml:space="preserve">take battery</command>
     <result xml:space="preserve">Taken.
 
@@ -212,10 +1292,10 @@ In Small Box is Battery.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1a64c0" />
+      <child nodeId="node-0x273b30" />
     </children>
   </item>
-  <item nodeId="node-0x1a64c0">
+  <item nodeId="node-0x273b30">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Front Desk
 This is where everybody enters and exits the convention center. There is a desk where people check in for the conventions. The doors are to the north, and the Main Hall is to the south.
@@ -227,10 +1307,10 @@ You can see Front door and Small Box (empty) here.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1a6510" />
+      <child nodeId="node-0x273ba0" />
     </children>
   </item>
-  <item nodeId="node-0x1a6510">
+  <item nodeId="node-0x273ba0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Front door)
 It seems to be locked.
@@ -240,10 +1320,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1a6580" />
+      <child nodeId="node-0x273c10" />
     </children>
   </item>
-  <item nodeId="node-0x1a6580">
+  <item nodeId="node-0x273c10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Main Hall
@@ -254,10 +1334,10 @@ This is the Main Hall of the Convention Center. It has a white marble floor, and
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1a65f0" />
+      <child nodeId="node-0x273c80" />
     </children>
   </item>
-  <item nodeId="node-0x1a65f0">
+  <item nodeId="node-0x273c80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Announcment booth
@@ -270,7 +1350,7 @@ You can see Wood drawer (closed) here.
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x1a8860">
+  <item nodeId="node-0x273920">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Front door)
 It seems to be locked.
@@ -280,11 +1360,11 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a88b0" />
-      <child nodeId="node-0x1a6410" />
+      <child nodeId="node-0x273e70" />
+      <child nodeId="node-0x273970" />
     </children>
   </item>
-  <item nodeId="node-0x1a6410">
+  <item nodeId="node-0x273970">
     <command xml:space="preserve">open front door</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -293,7 +1373,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x1a88b0">
+  <item nodeId="node-0x273e70">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Front door)
 It seems to be locked.
@@ -303,10 +1383,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a8900" />
+      <child nodeId="node-0x273ee0" />
     </children>
   </item>
-  <item nodeId="node-0x1a8900">
+  <item nodeId="node-0x273ee0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Desk
 You can see Front door here.
@@ -316,10 +1396,10 @@ You can see Front door here.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a8970" />
+      <child nodeId="node-0x273f50" />
     </children>
   </item>
-  <item nodeId="node-0x1a8970">
+  <item nodeId="node-0x273f50">
     <command xml:space="preserve">x front door</command>
     <result xml:space="preserve">You see nothing special about Front door.
 
@@ -328,10 +1408,10 @@ You can see Front door here.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a89e0" />
+      <child nodeId="node-0x273fc0" />
     </children>
   </item>
-  <item nodeId="node-0x1a89e0">
+  <item nodeId="node-0x273fc0">
     <command xml:space="preserve">open</command>
     <result xml:space="preserve">(Front door)
 It seems to be locked.
@@ -341,20 +1421,20 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a8a50" />
+      <child nodeId="node-0x274030" />
     </children>
   </item>
-  <item nodeId="node-0x1a8a50">
+  <item nodeId="node-0x274030">
     <command xml:space="preserve">push red button</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a8ac0" />
+      <child nodeId="node-0x2740a0" />
     </children>
   </item>
-  <item nodeId="node-0x1a8ac0">
+  <item nodeId="node-0x2740a0">
     <command xml:space="preserve">sdf</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -363,20 +1443,20 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a6660" />
+      <child nodeId="node-0x274110" />
     </children>
   </item>
-  <item nodeId="node-0x1a6660">
+  <item nodeId="node-0x274110">
     <command xml:space="preserve">push red button</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x1a66b0" />
+      <child nodeId="node-0x274180" />
     </children>
   </item>
-  <item nodeId="node-0x1a66b0">
+  <item nodeId="node-0x274180">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Winning Area
@@ -387,7 +1467,7 @@ You can see Front door here.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x1a8cb0">
+  <item nodeId="node-0x2741f0">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">You open Small Box, revealing Battery.
 
@@ -396,7 +1476,7 @@ You can see Front door here.
     <changed>YES</changed>
     <temporary score="1">YES</temporary>
   </item>
-  <item nodeId="node-0x1a8d20">
+  <item nodeId="node-0x274260">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
