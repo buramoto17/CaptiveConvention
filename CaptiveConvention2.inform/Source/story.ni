@@ -43,7 +43,7 @@ Office is east of Announcement Booth. "This looks like the office of the owner o
 
 window is scenery in the office. The description is "It is a view of the main street. Many people and cars pass by. The window is tinted so people on the outside can't look in. So much for trying to get their attention."
 
-Secret drawer is an openable container. It is nowhere
+Secret drawer is a closed openable container. It is nowhere
 
 Ballroom is north of Office. "This is where there are events are held. Everything from birthday parties to weddings are held here. The last remains of the game convention was here. Nothing special to look at though. The office is to the south. The main hall is to the west."
 
@@ -76,6 +76,9 @@ An every turn rule:
 An every turn rule:
 	If Battery1 is in radio and Battery2 is in radio:
 		Now Call is 1
+		
+[fastest way to finish game:
+	n, open small box, take battery1, s, e, take battery2, s, w, open drawer, take radio, put battery1 and battery 2 into radio, 232-3345, e, open secret drawer, take secret key, n, w, n, unlock front door with secret key, n]
 		
 
 
