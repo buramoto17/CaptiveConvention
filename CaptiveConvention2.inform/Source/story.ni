@@ -10,6 +10,8 @@ Flashlight is a thing in the Main Hall. The description is "A lightweight flashl
 
 Call is a number that varies. Call is 0
 
+The description of player is "Still wearing the game convention shirt, and black pants. My hair is still a little messy from the nap. I don't my cellphone right now, I left it at home."
+
 Lights is scenery in the Main hall. the description is "Bright white lights. It is hard to look at them directly. Good thing that these are on, otherwise, it would be pitch black."
 
 Plaque is scenery in the Main Hall. The description is "The plaque reads: In case of emergency, call 232-3345"
